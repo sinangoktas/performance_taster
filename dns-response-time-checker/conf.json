@@ -1,0 +1,25 @@
+{
+  "nameservers": [
+      {
+        "name": "google.dns",
+        "nameserver": "8.8.8.8"
+      },
+      {
+        "name": "cloudflare.dns",
+        "nameserver": "1.1.1.1"
+      }
+
+    ],
+  "domains": [
+    "google.com A",
+    "facebook.com A",
+    "youtube.com A",
+    "twitter.com A",
+    "instagram.com A",
+    "linkedin.com A",
+    "apple.com A",
+    "microsoft.com A",
+    "wikipedia.org A",
+    "wordpress.com A"
+  ]
+}

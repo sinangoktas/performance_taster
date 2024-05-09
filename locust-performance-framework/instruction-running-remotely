@@ -1,0 +1,27 @@
+To run a Locust test suite on a cluster of AWS instances, you can follow these general steps:
+
+Set up the AWS instances: Launch the required number of EC2 instances and configure them to use a common security group and IAM role.
+(PS- Alternatively you can create the cluster using Terraform and Ansible)
+
+Install Locust: Install Locust on each instance by following the installation instructions provided on the Locust website.
+
+Write your Locust test script: Develop your test script and ensure that it's ready for running on multiple instances.
+
+Configure Locust: Configure Locust to run the test on multiple instances by setting
+the --master flag on the master node and --worker flag on the worker nodes.
+
+Start the master node: Start the master node by running the Locust command with the appropriate parameters,
+including the IP addresses of the worker nodes.
+
+Start the worker nodes: Start the worker nodes by running the Locust command with the appropriate parameters,
+including the IP address of the master node.
+
+Monitor the test: Use the Locust web interface to monitor the test,
+including the number of users, response time, and other performance metrics.
+
+Analyze the results: Once the test is complete, analyze the results to identify any performance issues and optimize your application accordingly.
+
+It's worth noting that there are also various tools and services available that can simplify the process of running Locust tests on AWS,
+such as the Locust AWS module and the Locust Cloud service.
+These tools can help you to automate the setup and configuration of your Locust test environment,
+as well as provide additional features for scaling and monitoring your tests.

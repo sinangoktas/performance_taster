@@ -1,0 +1,22 @@
+# .ssh/ contains >  config id_rsa known_hosts
+
+# make sure remote hosts are added to your .ssh/config folder
+# clearing known_hosts folder may avoid script failures
+
+Host i1
+HostName ec2-*******
+User sinang
+IdentityFile ~/.ssh/id_rsa
+StrictHostKeyChecking No
+
+Host i2
+HostName ec2-*******
+User sinang
+IdentityFile ~/.ssh/id_rsa
+StrictHostKeyChecking No
+
+Host i3
+HostName ec2-*******
+User sinang
+IdentityFile ~/.ssh/id_rsa
+StrictHostKeyChecking No
