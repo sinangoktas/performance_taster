@@ -9,8 +9,9 @@ import pandas as pd
 # If a resolver (such as a custom resolver on an app running locally) using dynamic ports
 # this solution can be used (in original script Resolver() class will always assume port53 response)
 
-NO_OF_SAMPLES = 3 # the number of times each site requested
-OUTLIER_THRESHOLD = 100.0 # The response time that is considered an outlier
+NO_OF_SAMPLES = 3  # the number of times each site requested
+OUTLIER_THRESHOLD = 100.0  # The response time that is considered an outlier
+
 
 def main():
     # open the config file
@@ -123,11 +124,5 @@ def main():
         [print(ol) for ol in outliers] if outliers else print("N/A")
 
 
-if __name__ == "__main__" :
+if __name__ == "__main__":
     main()
-
-
-
-
-
-

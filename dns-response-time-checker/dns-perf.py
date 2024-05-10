@@ -7,8 +7,9 @@ import pandas as pd
 
 # TODO: TRY PYTHON'S PERF LIBRARY
 
-NO_OF_SAMPLES = 3 # the number of times each site requested
-OUTLIER_THRESHOLD = 100.0 # The response time that is considered an outlier
+NO_OF_SAMPLES = 3  # the number of times each site requested
+OUTLIER_THRESHOLD = 100.0  # The response time that is considered an outlier
+
 
 def main():
     # create the stub resolver
@@ -101,11 +102,5 @@ def main():
         [print(ol) for ol in outliers] if outliers else print("N/A")
 
 
-if __name__ == "__main__" :
+if __name__ == "__main__":
     main()
-
-
-
-
-
-

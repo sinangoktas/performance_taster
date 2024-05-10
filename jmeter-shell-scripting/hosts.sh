@@ -9,7 +9,7 @@ MASTER_HOST_IP=****
 ALL_HOSTS="$HOST_MASTER $HOST_WORKERS"
 
 
-# if running the jmeter on a single instance / refactor the other scripts accordingly
+# if running jmeter on a single instance / refactor the other scripts accordingly
 HOST="i1"
 
 # Private IP of the host
