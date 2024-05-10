@@ -1,0 +1,2 @@
+You can create a JMeter instance or a cluster using Terraform and Ansible provisioning
+Then using the scripts you can import your test plans onto instances, execute and copy the result report onto your local machine
